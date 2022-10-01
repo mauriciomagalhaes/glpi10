@@ -13549,6 +13549,10 @@ msgstr "Origem de login"
 msgid "Login to your account"
 msgstr "Faça login para sua conta"
 
+#: templates/pages/login.html.twig
+msgid "Ticket system"
+msgstr "Sistemas de Chamados"
+
 #: src/Auth.php:615
 msgid "Login with external token disabled"
 msgstr "Login com token externo desabilitado"

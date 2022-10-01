@@ -6221,7 +6221,7 @@ HTML;
      */
     public static function getCopyrightMessage($withVersion = true)
     {
-        $message = "<a href=\"https://glpi-project.org/\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
+        $message = "<a href=\"https://glpi-project.org/\" style=\"color:white; font-size:12px\" title=\"Powered by Teclib and contributors\" class=\"copyright\">";
         $message .= "GLPI ";
        // if required, add GLPI version (eg not for login page)
         if ($withVersion) {

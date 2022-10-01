@@ -97,8 +97,8 @@ body.iframed {
 .page {
     .glpi-logo {
         background: url($logo) no-repeat;
-        height: 55px;
-        width: 100px;
+        height: 66px;
+        width: 192px;
     }
 
     .page-body {
@@ -234,8 +234,8 @@ body.iframed {
         --logo: url(#{$logo-dark-login});
 
         content: var(--logo);
-        width: 342px;
-        height: 112px;
+        width: 250px;
+        height: 80px;
     }
 }
 
@@ -325,10 +325,12 @@ kbd {
     white-space: nowrap;
 }
 
+.welcome-anonymous {
+    background-image: url(/pics/bg/back.jpg);
+}
 body,
 body input {
     font-variant-ligatures: no-contextual;
-    background-image: url(/pics/bg/back.jpg);
 }
 
 /** Bootstrap visibility classes (The utility class behavior is different in _styles.scss) */

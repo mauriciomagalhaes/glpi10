@@ -40,10 +40,11 @@
       <input type="hidden" name="_glpi_csrf_token" value="{{ csrf_token() }}" />
 
       <div class="row justify-content-center">
-         <div class="col-md-5">
+         <div class="">
             <div class="card-header mb-4">
-               <h2 class="mx-auto">{{ __('Login to your account') }}</h2>
-            </div>
+               <!-- <h2 class="mx-auto">{{ __('Login to your account') }}</h2> -->
+               <h2 class="mx-auto">{{ __('Sistema de chamados') }}</h2>
+               </div>
             <div class="mb-3">
                <label class="form-label">{{ __('Login') }}</label>
                <input type="text" class="form-control" id="login_name" name="{{ namfield }}" placeholder="" tabindex="1" />
@@ -69,14 +70,14 @@
                   {{ languages_dropdown|raw }}
                </div>
             {% endif %}
-
+<!-- 
             {% if config('display_login_source') %}
                <div class="mb-3">
                   <label class="form-label">{{ __('Login source') }}</label>
                   {{ auth_dropdown_login|raw }}
                </div>
             {% endif %}
-
+ -->
             {% if config('login_remember_time') %}
                <div class="mb-2">
                   <label class="form-check">
